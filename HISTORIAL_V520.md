@@ -1,0 +1,4 @@
+- Mapa vuelve a ser protagonista en escritorio con panel lateral flotante a la derecha.
+- Durante la etapa Proceso, el mapa queda fijo sobre la obra para evitar que la capa explicativa se desplace.
+- Todas las obras refuerzan su presencia con pulso radial permanente; al seleccionarlas pasan a rojo.
+- El preview fotográfico al hacer hover sobre una obra aumenta de tamaño para mejorar el reconocimiento visual.

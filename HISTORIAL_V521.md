@@ -1,0 +1,3 @@
+- Se elimina el bloque redundante de coautoría en la etapa Creador/a del recorrido de una obra.
+- Las personas autoras ahora aparecen directamente como tarjetas visuales con foto protagonista.
+- El perfil de creador/a y agrupación ahora abre con hero fotográfico y texto superpuesto, siguiendo la lógica visual de las obras.

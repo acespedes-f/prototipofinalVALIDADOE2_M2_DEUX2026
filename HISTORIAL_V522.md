@@ -1,0 +1,5 @@
+- Ajustes mobile: se elimina el bloque inferior "¿Te interesa esta obra o su oficio?" para liberar altura de lectura.
+- Se oculta la pista "Desliza para seguir leyendo" en mobile.
+- El panel inferior móvil gana altura útil y se abre por defecto al entrar a un detalle.
+- La barra de etapas se compacta en mobile para reducir consumo vertical.
+- Se ajustan tamaños del hero y títulos en mobile para optimizar el área de lectura.

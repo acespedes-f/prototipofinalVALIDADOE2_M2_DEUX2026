@@ -1,0 +1,12 @@
+{
+  "name": "atlas-de-los-oficios-blueprint-v531",
+  "version": "1.31.0",
+  "private": true,
+  "type": "module",
+  "description": "Prototipo interactivo sin dependencias externas para explorar artesanía de Petorca",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "test": "node verify.mjs && node test-home.mjs && node test-flow-v511.mjs && node test-flow-v512.mjs && node test-flow-v515.mjs && node test-flow-v517.mjs && node test-flow-v518.mjs && node test-flow-v519.mjs && node test-flow-v523.mjs && node test-flow-v524.mjs && node test-flow-v528.mjs && node test-flow-v529.mjs && node test-flow-v531.mjs"
+  }
+}

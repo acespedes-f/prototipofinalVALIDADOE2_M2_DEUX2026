@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+const css=fs.readFileSync(new URL('./styles.css',import.meta.url),'utf8');
+const js=fs.readFileSync(new URL('./app.js',import.meta.url),'utf8');
+assert.match(css,/V5\.24 — El selector territorial móvil cabe completo/);
+assert.match(css,/grid-template-columns:repeat\(2,minmax\(0,1fr\)\)/);
+assert.match(css,/\.v511-explore \.v511-zone-list\.is-expanded\{display:grid\}/);
+assert.match(css,/\.v511-zone-list \.v511-zone\{[\s\S]*?min-height:42px/);
+assert.match(js,/k==='Todas'\?'Toda la provincia':k/);
+assert.match(js,/case 'zone':state\.zoneOpen=false;focusZone/);
+assert.match(js,/state\.zoneOpen&&!e\.target\.closest\('#v511-zone-bar'\)&&!e\.target\.closest\('\[data-action=\"zone-expand\"\]'\)/);
+console.log('V5.24: menú de comunas de dos columnas, primera opción, cierre exterior y botones táctiles verificados.');
