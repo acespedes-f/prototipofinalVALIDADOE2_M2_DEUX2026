@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 980" width="1200" height="980"><defs>
+<radialGradient id="light" cx="46%" cy="23%" r="88%"><stop stop-color="#f6f0e5"/><stop offset=".7" stop-color="#e6dfd1"/><stop offset="1" stop-color="#d6cabc"/></radialGradient>
+<linearGradient id="artifact" x1="0" y1="0" x2="1" y2=".2"><stop stop-color="#7c5136"/><stop offset=".4" stop-color="#b28a66"/><stop offset=".77" stop-color="#7c5136"/><stop offset="1" stop-color="#503c34"/></linearGradient>
+<linearGradient id="shade" x1=".2" y1="0" x2=".8" y2="1"><stop stop-color="#ffffff" stop-opacity=".35"/><stop offset="1" stop-color="#241e18" stop-opacity=".25"/></linearGradient>
+<filter id="grain"><feTurbulence baseFrequency=".45" numOctaves="3" seed="7" type="fractalNoise"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".095"/></feComponentTransfer></filter>
+<filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="25"/></filter>
+<clipPath id="baskclip"><path d="M310 388 Q600 425 890 388 L846 766 Q615 848 354 755Z"/></clipPath>
+</defs><rect width="1200" height="980" fill="url(#light)"/><path d="M0 774 Q470 727 1200 790 L1200 980H0" fill="#c9bfb0" opacity=".46"/><ellipse cx="615" cy="840" rx="350" ry="65" fill="#453f35" opacity=".18" filter="url(#shadow)"/>
+<path d="M388 359 Q389 180 611 180 Q809 185 815 359" fill="none" stroke="#8b6445" stroke-width="35"/><path d="M304 338 Q602 368 898 338 L862 753 Q595 814 333 750Z" fill="url(#artifact)" stroke="#563b2b" stroke-width="9"/><path d="M318 468 Q600 525 886 464" fill="none" stroke="#e3bb88" stroke-width="7" stroke-dasharray="6 14"/><path d="M490 343 L488 604 Q600 664 706 604 L704 341" fill="#654532" stroke="#d0a37b" stroke-width="7"/><rect x="576" y="400" width="53" height="63" rx="8" fill="none" stroke="#dbbd8a" stroke-width="16"/><rect width="1200" height="980" filter="url(#grain)" opacity=".32"/></svg>
